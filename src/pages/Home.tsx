@@ -172,11 +172,10 @@ const Home: React.FC = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative bg-gray-900 text-white overflow-hidden">
-        {/* Background Image with Overlay */}
+      <section className="relative text-white overflow-hidden">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-800/90"></div>
-          <div className="absolute inset-0 bg-[url('/images/digital1.jpg')] bg-cover bg-center opacity-20"></div>
+          <div className="absolute inset-0 bg-[url('/images/digital1.jpg')] bg-cover bg-center"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-36">
@@ -190,11 +189,11 @@ const Home: React.FC = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              <span className="block mb-2">Your Journey to</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-100">Financial Freedom</span>
+              <span className="block mb-2 text-shadow">Your Journey to</span>
+              <span className="text-yellow-400 text-shadow">Financial Freedom</span>
             </h1>
             
-            <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-10">
+            <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-10 text-shadow">
               Fast, transparent loan solutions with rates starting at 8.5% and approvals in as little as 24 hours.
             </p>
             

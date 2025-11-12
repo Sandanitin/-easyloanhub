@@ -163,6 +163,34 @@ const Contact: React.FC = () => {
                     </div>
                   </div>
                 ))}
+
+                {/* Google Maps Embed */}
+                <div className="bg-gray-50 rounded-lg overflow-hidden">
+                  <h3 className="text-lg font-medium text-gray-900 p-4 border-b border-gray-200">Our Location</h3>
+                  <div className="p-2">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.274160928943!2d78.3914453752023!3d17.44754008342103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91622e4aa38b%3A0x7d851232ca913f3d!2sBalnagar%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                      width="100%"
+                      height="250"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Easy Loan Hub Location"
+                    ></iframe>
+                    <div className="p-3 text-center">
+                      <a 
+                        href="https://maps.app.goo.gl/VXFUzmDUK4QaZBfN9" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+                      >
+                        <MapPinIcon className="h-5 w-5 mr-1" />
+                        View on Google Maps
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Contact Form */}
