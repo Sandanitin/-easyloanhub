@@ -6,6 +6,7 @@ import { Toaster } from 'react-hot-toast';
 // Components
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
+import ScrollToTop from './components/common/ScrollToTop';
 
 // Pages
 import Home from './pages/Home';
@@ -27,6 +28,7 @@ function App() {
   return (
     <HelmetProvider>
       <div className="min-h-screen bg-gray-50 flex flex-col">
+        <ScrollToTop />
         <Navbar />
         <main className="flex-1">
           <Routes>
