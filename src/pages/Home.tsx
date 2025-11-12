@@ -16,7 +16,12 @@ import {
   LightBulbIcon,
   HandThumbUpIcon,
   EnvelopeIcon,
-  MapPinIcon
+  MapPinIcon,
+  ArrowTrendingUpIcon,
+  BuildingLibraryIcon,
+  CurrencyDollarIcon,
+  AcademicCapIcon,
+  BuildingOfficeIcon
 } from '@heroicons/react/24/outline';
 
 // Define TypeScript interfaces
@@ -62,8 +67,8 @@ const services: Service[] = [
   },
   {
     icon: CreditCardIcon,
-    title: 'Personal Loans',
-    description: 'Meet your personal financial needs with our hassle-free personal loan services.'
+    title: 'Credit Cards',
+    description: 'Access to a wide range of credit cards with exclusive benefits and rewards.'
   },
   {
     icon: DevicePhoneMobileIcon,
@@ -74,6 +79,26 @@ const services: Service[] = [
     icon: ArrowsRightLeftIcon,
     title: 'Balance Transfer',
     description: 'Transfer your existing loans to us and enjoy lower interest rates and better terms.'
+  },
+  {
+    icon: ArrowTrendingUpIcon,
+    title: 'Over Draft',
+    description: 'Flexible overdraft facility to meet your short-term financial requirements.'
+  },
+  {
+    icon: CurrencyDollarIcon,
+    title: 'Multiple Loans Take Over',
+    description: 'Consolidate all your existing loans into a single loan with better terms.'
+  },
+  {
+    icon: BuildingLibraryIcon,
+    title: 'Debt Consolidation',
+    description: 'Combine multiple debts into a single, manageable payment with a lower interest rate.'
+  },
+  {
+    icon: BuildingOfficeIcon,
+    title: 'Self Employed Loans',
+    description: 'Specialized loan products designed for self-employed individuals and business owners.'
   },
   {
     icon: ShieldCheckIcon,

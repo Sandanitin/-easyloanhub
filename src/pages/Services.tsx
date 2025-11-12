@@ -5,9 +5,13 @@ import {
   TruckIcon,
   CreditCardIcon,
   DevicePhoneMobileIcon,
+  ArrowsRightLeftIcon,
   ShieldCheckIcon,
   AcademicCapIcon,
-  BuildingOfficeIcon
+  BuildingOfficeIcon,
+  CurrencyDollarIcon,
+  ArrowTrendingUpIcon,
+  BuildingLibraryIcon
 } from '@heroicons/react/24/outline';
 
 interface Service {
@@ -57,6 +61,90 @@ const Services: React.FC = () => {
       ]
     },
     {
+      id: 'credit-card',
+      title: 'Credit Cards',
+      icon: CreditCardIcon,
+      description: 'Access to a wide range of credit cards with exclusive benefits and rewards.',
+      features: [
+        'Instant approval',
+        'Attractive reward points',
+        'Travel benefits',
+        'Shopping discounts'
+      ]
+    },
+    {
+      id: 'overdraft',
+      title: 'Over Draft',
+      icon: ArrowTrendingUpIcon,
+      description: 'Flexible overdraft facility to meet your short-term financial requirements.',
+      features: [
+        'Instant access to funds',
+        'Pay only for what you use',
+        'Competitive interest rates',
+        'Easy repayment options'
+      ]
+    },
+    {
+      id: 'bt-loan',
+      title: 'Balance Transfer',
+      icon: ArrowsRightLeftIcon,
+      description: 'Transfer your existing loans at lower interest rates to save money.',
+      features: [
+        'Lower interest rates',
+        'Reduced EMIs',
+        'Faster loan processing',
+        'Top-up facility available'
+      ]
+    },
+    {
+      id: 'multiple-loans',
+      title: 'Multiple Loans Take Over',
+      icon: CurrencyDollarIcon,
+      description: 'Consolidate all your existing loans into a single loan with better terms.',
+      features: [
+        'Single monthly payment',
+        'Lower overall interest rate',
+        'Simplified repayment',
+        'Reduced financial stress'
+      ]
+    },
+    {
+      id: 'app-loans',
+      title: 'App Loans',
+      icon: DevicePhoneMobileIcon,
+      description: 'Quick and convenient loan applications through our mobile app with instant approvals.',
+      features: [
+        'Paperless process',
+        'Instant approval',
+        'Digital document submission',
+        '24/7 availability'
+      ]
+    },
+    {
+      id: 'debt-consolidation',
+      title: 'Debt Consolidation',
+      icon: BuildingLibraryIcon,
+      description: 'Combine multiple debts into a single, manageable payment with a lower interest rate.',
+      features: [
+        'Single monthly payment',
+        'Lower interest rates',
+        'Simplified finances',
+        'Faster debt repayment'
+      ]
+    },
+    {
+      id: 'self-employed',
+      title: 'Self Employed Loans',
+      icon: BuildingOfficeIcon,
+      description: 'Specialized loan products designed for self-employed individuals and business owners.',
+      features: [
+        'Flexible eligibility criteria',
+        'Customized repayment options',
+        'Minimal documentation',
+        'Quick disbursal'
+      ]
+    },
+    {
       id: 'education-loan',
       title: 'Education Loan',
       icon: AcademicCapIcon,
@@ -91,6 +179,42 @@ const Services: React.FC = () => {
         'Low interest rates',
         'Multipurpose usage'
       ]
+    },
+    {
+      id: 'hdfc-life-insurance',
+      title: 'HDFC Life Insurance',
+      icon: ShieldCheckIcon,
+      description: 'Comprehensive life insurance solutions from HDFC Life for your family\'s financial security.',
+      features: [
+        'Term insurance plans',
+        'Investment options',
+        'Child plans',
+        'Retirement solutions'
+      ]
+    },
+    {
+      id: 'kotak-life-insurance',
+      title: 'Kotak Life Insurance',
+      icon: ShieldCheckIcon,
+      description: 'Secure your family\'s future with Kotak Life Insurance products.',
+      features: [
+        'Protection plans',
+        'Savings plans',
+        'Unit-linked plans',
+        'Pension plans'
+      ]
+    },
+    {
+      id: 'star-health-insurance',
+      title: 'Star Health Insurance',
+      icon: ShieldCheckIcon,
+      description: 'Comprehensive health insurance coverage for you and your family.',
+      features: [
+        'Cashless hospitalization',
+        'Wide network of hospitals',
+        'Family floater plans',
+        'Critical illness coverage'
+      ]
     }
   ];
 
@@ -105,10 +229,10 @@ const Services: React.FC = () => {
       <div className="bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-            Our Loan Services
+            Our Financial Services
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-xl text-blue-100">
-            Flexible loan solutions tailored to meet your financial needs with competitive rates and quick approvals.
+            Comprehensive financial solutions tailored to meet your diverse needs with competitive rates and quick approvals.
           </p>
         </div>
       </div>
@@ -161,9 +285,9 @@ const Services: React.FC = () => {
         {/* CTA Section */}
         <div className="mt-16 bg-white rounded-xl shadow-md overflow-hidden">
           <div className="px-6 py-12 sm:px-12 text-center">
-            <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">Need help choosing the right loan?</h2>
+            <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">Need help choosing the right financial solution?</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Our financial experts are here to help you find the perfect loan solution.
+              Our financial experts are here to help you find the perfect solution for your needs.
             </p>
             <div className="mt-8">
               <a
